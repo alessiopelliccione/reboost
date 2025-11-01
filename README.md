@@ -1,5 +1,8 @@
 # Reboost – Smart Rebuild Primer
 
+Read the full article explaining the design:
+👉 [Medium post](https://medium.com/@alessiopelliccione/how-modern-dev-servers-decide-what-to-rebuild-a-minimal-engine-254f3c746419)
+
 Reboost is a teaching-oriented engine that mirrors the inner loop of modern dev servers (Vite, esbuild, rspack). It watches your files, maintains an incremental dependency graph, and tells you exactly which modules to refresh after every edit. The codebase is deliberately small so you can read through it in one sitting and adapt the pieces to your own experiments.
 
 ## Quick Start
